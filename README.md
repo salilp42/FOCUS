@@ -2,7 +2,7 @@
 
 ## Overview
 
-FocusNet is a novel deep learning architecture that incorporates biological vision principles for enhanced medical image analysis. Our approach achieves state-of-the-art performance across multiple medical imaging modalities while maintaining biological plausibility.
+FocusNet is a novel deep learning architecture that incorporates biological vision principles for enhanced medical image analysis. 
 
 ### Key Features
 - **Bio-inspired Architecture**: 
