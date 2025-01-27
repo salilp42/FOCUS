@@ -1,5 +1,5 @@
 """
-Neural network building blocks for SaccadeNet.
+Neural network building blocks for FocusNet.
 
 This module contains the core building blocks:
 - CrossNormalization: Cross-stream normalization for M/P/K pathways
