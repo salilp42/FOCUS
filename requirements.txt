@@ -1,0 +1,10 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+pillow>=8.3.0
+tqdm>=4.62.0
+medmnist>=2.1.0
+scikit-learn>=1.0.0
+torchcam>=0.3.0  # optional, for Grad-CAM++
