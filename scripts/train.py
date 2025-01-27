@@ -1,5 +1,5 @@
 """
-Training script for SaccadeNet models.
+Training script for FocusNet models.
 
 Example usage:
     python train.py --dataset pathmnist --epochs 100 --batch_size 32
@@ -20,11 +20,11 @@ from torch.utils.data import DataLoader
 import medmnist
 from medmnist import INFO
 
-from saccadenet import EnhancedFocusNet2D, EnhancedFocusNet3D
-from saccadenet.utils import FocalLoss
+from focusnet import EnhancedFocusNet2D, EnhancedFocusNet3D
+from focusnet.utils import FocalLoss
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Train SaccadeNet on MedMNIST")
+    parser = argparse.ArgumentParser(description="Train FocusNet on MedMNIST")
     parser.add_argument("--dataset", type=str, required=True,
                       help="MedMNIST dataset name")
     parser.add_argument("--epochs", type=int, default=100,

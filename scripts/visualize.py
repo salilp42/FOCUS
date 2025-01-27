@@ -1,5 +1,5 @@
 """
-Visualization script for SaccadeNet models.
+Visualization script for FocusNet models.
 
 Example usage:
     python visualize.py --model_path results/pathmnist_latest/best_model.pth --dataset pathmnist
@@ -11,11 +11,11 @@ import torch
 import medmnist
 from medmnist import INFO
 
-from saccadenet import EnhancedFocusNet2D, EnhancedFocusNet3D
-from saccadenet.utils import plot_attention_maps, measure_receptive_field
+from focusnet import EnhancedFocusNet2D, EnhancedFocusNet3D
+from focusnet.utils import plot_attention_maps, measure_receptive_field
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Visualize SaccadeNet attention")
+    parser = argparse.ArgumentParser(description="Visualize FocusNet attention")
     parser.add_argument("--model_path", type=str, required=True,
                       help="Path to trained model")
     parser.add_argument("--dataset", type=str, required=True,

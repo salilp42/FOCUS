@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="saccadenet",
+    name="focusnet",
     version="1.0.0",
     description="Bio-Inspired Deep Learning Architecture for Medical Image Analysis",
     author="[Author List]",
