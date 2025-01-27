@@ -1,5 +1,5 @@
 """
-Core model implementations for SaccadeNet.
+Core model implementations for FocusNet.
 
 This module contains the main model architectures for both 2D and 3D medical image analysis:
 - EnhancedFocusNet2D: For 2D medical images (e.g., X-rays, pathology slides)
