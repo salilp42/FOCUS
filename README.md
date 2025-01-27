@@ -1,7 +1,5 @@
 # FocusNet: Bio-Inspired Visual Attention Networks for Medical Image Analysis
 
-Official implementation of "FocusNet: A Bio-Inspired Deep Learning Architecture for Medical Image Analysis" (Nature, 2025).
-
 ## Overview
 
 FocusNet is a novel deep learning architecture that incorporates biological vision principles for enhanced medical image analysis. Our approach achieves state-of-the-art performance across multiple medical imaging modalities while maintaining biological plausibility.
@@ -87,17 +85,6 @@ FocusNet's architecture consists of three main components:
    - Enhanced memory for multi-saccade sequences
    - Adaptive feature weighting
 
-## Results
-
-Our model achieves superior performance across multiple medical imaging tasks:
-
-| Dataset | Accuracy | AUC-ROC |
-|---------|----------|---------|
-| PathMNIST | 95.2% | 0.989 |
-| ChestMNIST | 91.7% | 0.965 |
-| DermaMNIST | 93.4% | 0.978 |
-| OrganMNIST3D | 89.8% | 0.952 |
-
 ## Visualization
 
 Generate attention visualizations:
@@ -117,20 +104,10 @@ If you find this code useful, please cite our paper:
 ```bibtex
 @article{focusnet2025,
   title={FocusNet: A Bio-Inspired Deep Learning Architecture for Medical Image Analysis},
-  author={[Author list]},
-  journal={Nature},
-  volume={},
-  number={},
-  pages={},
-  year={2025},
-  publisher={Nature Publishing Group}
+  author={[Salil Patel]},
 }
 ```
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-We thank the MedMNIST team for providing the benchmark datasets and the medical imaging community for valuable feedback during development.
