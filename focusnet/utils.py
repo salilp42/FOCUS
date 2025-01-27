@@ -1,5 +1,5 @@
 """
-Utility functions for SaccadeNet.
+Utility functions for FocusNet.
 
 This module contains:
 - FocalLoss: Loss function for handling class imbalance
